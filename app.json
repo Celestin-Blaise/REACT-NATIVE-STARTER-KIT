@@ -1,0 +1,30 @@
+{
+	"expo": {
+		"name": "BLAZE STARTER KIT",
+		"slug": "BlazeStarterKit",
+		"privacy": "public",
+		"sdkVersion": "36.0.0",
+		"platforms": ["ios", "android", "web"],
+		"android": {
+			"package": "com.blazeportfolio.app",
+			"versionCode": 1,
+			"permissions": [],
+			"icon": "./assets/icon.png"
+		},
+		"version": "1.0.0",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#FFFF"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		}
+	}
+}
